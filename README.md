@@ -51,7 +51,7 @@ Created a two-page executive report designed for Operations and Sales stakeholde
 ## 🚀 How to Use
 
 1. **SQL:** Run the provided scripts to initialize the database schema and populate the analytical views.
-2. **Power BI:** Connect the `.pbix` file to your local PostgreSQL instance (ensure the database name matches).
+2. **Power BI:** Connect the `.pbix` file to your local MySQL instance (ensure the database name matches).
 3. **Interact:** Use the synchronized slicers to filter by date range, product category, or region.
 
 
