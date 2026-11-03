@@ -44,7 +44,7 @@ Created a two-page executive report designed for Operations and Sales stakeholde
 
 ## ⚠️ Technical Challenges & Solutions
 
-- **Connectivity:** Resolved MySQL SASL/SCRAM authentication errors and local loopback (127.0.0.1) connection issues.
+- **Connectivity:** Resolved MySQL authentication errors and local loopback (127.0.0.1) connection issues.
 - **Data Modeling:** Managed Many-to-Many relationship complexities in Power BI using bi-directional filtering while maintaining data integrity.
 - **Geospatial Accuracy:** Fixed "data drift" in map visuals by implementing precise Latitude/Longitude coordinate mapping and data categorization.
 
