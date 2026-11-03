@@ -6,7 +6,7 @@ This project provides a comprehensive analysis of the Olist e-commerce dataset, 
 
 ## 🛠️ Tech Stack
 
-- **Database:** PostgreSQL (Schema Design, ETL, Views)
+- **Database:** MySQL (Schema Design, ETL, Views)
 - **BI Tool:** Power BI (Star Schema Modeling, DAX, Geospatial Mapping)
 - **Data Source:** Brazilian E-Commerce Public Dataset (100k+ orders)
 
@@ -22,7 +22,7 @@ The foundation of the project involved migrating disconnected CSV files into a s
 
 ### 2. Analytical Modeling (SQL Views)
 
-Rather than performing transformations in the BI tool, heavy lifting was offloaded to PostgreSQL using Master Views:
+Rather than performing transformations in the BI tool, heavy lifting was offloaded to MySQL using Master Views:
 
 - **Logistics View:** Breaks down the order lifecycle into Warehouse Time (Seller handoff) and Shipping Time (Carrier transit).
 - **SLA Analysis:** Calculates the gap between estimated and actual delivery dates.
@@ -44,7 +44,7 @@ Created a two-page executive report designed for Operations and Sales stakeholde
 
 ## ⚠️ Technical Challenges & Solutions
 
-- **Connectivity:** Resolved PostgreSQL SASL/SCRAM authentication errors and local loopback (127.0.0.1) connection issues.
+- **Connectivity:** Resolved MySQL SASL/SCRAM authentication errors and local loopback (127.0.0.1) connection issues.
 - **Data Modeling:** Managed Many-to-Many relationship complexities in Power BI using bi-directional filtering while maintaining data integrity.
 - **Geospatial Accuracy:** Fixed "data drift" in map visuals by implementing precise Latitude/Longitude coordinate mapping and data categorization.
 
@@ -53,3 +53,11 @@ Created a two-page executive report designed for Operations and Sales stakeholde
 1. **SQL:** Run the provided scripts to initialize the database schema and populate the analytical views.
 2. **Power BI:** Connect the `.pbix` file to your local PostgreSQL instance (ensure the database name matches).
 3. **Interact:** Use the synchronized slicers to filter by date range, product category, or region.
+
+
+
+
+
+
+
+
